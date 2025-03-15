@@ -1,0 +1,85 @@
+# 构建目录
+build/
+bin/
+lib/
+out/
+
+# CMake生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!cmake/*.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# 编译生成的文件
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# 依赖管理工具生成的目录
+vcpkg_installed/
+conan/
+
+# IDE和编辑器生成的文件和目录
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.user
+*.suo
+*.db
+*.opendb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+.cache/
+.clangd/
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 测试生成的文件
+Testing/
+test_results/
+
+# 文档生成的文件
+docs/html/
+docs/latex/
+docs/xml/
+docs/man/
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+temp/
+tmp/
+
+# 系统特定文件
+Thumbs.db
+.directory
+
+# 特定于cpp-pubsub项目的文件
+# 如果有特定于项目的临时文件或生成文件，请在此处添加 

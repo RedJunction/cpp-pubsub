@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcpp-pubsub.a CMakeFiles/cpp-pubsub.dir/broker.cpp.o CMakeFiles/cpp-pubsub.dir/topic.cpp.o CMakeFiles/cpp-pubsub.dir/subscription.cpp.o CMakeFiles/cpp-pubsub.dir/message.cpp.o CMakeFiles/cpp-pubsub.dir/pubsub.cpp.o
-/usr/bin/ranlib libcpp-pubsub.a
